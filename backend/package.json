@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/bell": "^12.1.0",
+    "@hapi/boom": "^9.1.0",
+    "@hapi/cookie": "^11.0.1",
+    "@hapi/glue": "^7.0.0",
+    "@hapi/hapi": "^19.2.0",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/joi-date": "^2.0.1",
+    "@hapi/wreck": "^17.0.0",
+    "@sendgrid/mail": "^7.2.3",
+    "bcryptjs": "^2.4.3",
+    "confidence": "^4.0.2",
+    "dotenv": "^8.2.0",
+    "firebase-admin": "^9.0.0",
+    "hapi-auth-bearer-token": "^6.1.6",
+    "hapi-auth-keycloak": "^5.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "keycloak-admin": "^1.13.0",
+    "keycloak-connect": "^11.0.0",
+    "knex": "^0.21.2",
+    "nodemon": "^2.0.4",
+    "objection": "^2.2.2",
+    "objection-softdelete": "^2.0.1",
+    "pg": "^8.3.0",
+    "querystring": "^0.2.0",
+    "stripe": "^8.81.0",
+    "uuid": "^8.3.0"
+  }
+}
